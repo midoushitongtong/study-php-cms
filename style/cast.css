@@ -1,0 +1,30 @@
+
+
+
+
+
+#cast {
+  margin-bottom: 0.6rem;
+  border: 1px solid #e6e6e6;
+}
+#cast h2 {
+	border-bottom: 0;
+}
+#cast h2 a {
+	color: #06f;
+}
+#cast table {
+	width: 83%;
+	margin: 13px auto;
+	background: #e3e3e3;
+}
+#cast table caption {
+	font-size: 19px;
+	margin-bottom: 19px;
+}
+#cast table th,
+#cast table td {
+	padding: 13px;
+	background: #fff;
+	text-align: center;
+}

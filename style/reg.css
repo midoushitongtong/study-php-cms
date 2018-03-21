@@ -1,0 +1,51 @@
+#reg {
+	width: 100%;
+	margin: 0 0 13px;
+}
+#reg h2 {
+	border: 1px solid #e0e3e6;
+	height: 26px;
+	border-bottom: none;
+	text-align: center;
+}
+#reg form {
+	border: 1px solid #eee;
+	padding: 23px 0;
+	font-size: 13px;
+	border-top: 0;
+}
+#reg form dl dd input.text {
+	width: 233px;
+	height: 23px;
+	text-indent: 6px;
+	border: 1px solid #d3d3d3;
+	background: #fff;
+}
+#reg form input[type="submit"] {
+	background: #eee;
+	border: 1px solid #e3e6e9;
+	margin-left: 63px;
+	width: 133px;
+	height: 33px;
+	border-radius: 1px;
+	outline: none;
+	cursor: pointer;
+}
+#reg form .orange {
+	color: orange;
+}
+#reg form dl {
+	padding-left: 233px;
+}
+#reg form dl dd {
+	padding: 6px 0;
+}
+#reg form img {
+	margin-left: 63px;
+	cursor: pointer;
+	border: 1px solid #e6e6e6;
+}
+#reg form dl dd select {
+	width: 235px;
+	height: 23px;
+}

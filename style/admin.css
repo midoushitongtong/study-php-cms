@@ -1,0 +1,338 @@
+
+
+
+
+
+body, h1, h2, h3, p, form, ul, li, dl, dt, dd, ol {
+	padding: 0;
+	margin: 0;
+}
+body {
+	font-size: 12px;
+	background: #fff;
+}
+a {
+	text-decoration: none;
+}
+#top {
+	background: url(../images/admin_top_bg.gif);	
+}
+#top h1 {
+	width: 150px;
+	height: 80px;
+	background: url(../images/logosmall.png) no-repeat;
+	float: left;
+}
+#top ul {
+	list-style-type: none;
+	padding: 49px 0 0 13px;
+	float: left;
+}
+#top ul li {
+	float: left;
+	padding: 0 0 0 6px;
+}
+#top ul li a {
+	width: 59px;
+	height: 33px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+	display: block;	
+	text-align: center;
+	line-height: 33px;
+	background: url(../images/li_bg.png) left bottom;
+	font-size: 13px;
+}
+#top ul li a.selected {
+	background-position: right bottom;
+	color: #306eb5;
+}
+#top p {
+	float: right;
+	color: #fff;
+	padding: 23px 23px 0 0;
+}
+#top p a {
+	color: #fff;
+}
+#sidebar {
+	background: #f7fbfc url(../images/sidebar_right.png) repeat-y right;
+}
+#sidebar dl {
+	padding: 23px;
+}
+#sidebar dl dt {
+	color: #306eb6;
+	border-bottom: 1px solid #a6a3a9;
+	padding: 6px 0;
+	margin: 6px 0;
+	font-size: 14px;
+}
+#sidebar dl dd {
+	padding: 3px 0;
+}
+#sidebar dl dd a {
+	color: #292929;
+}
+#main div.map {
+	padding: 13px;
+	color: #292929;
+}
+#main div.map strong {
+	color: #06f;
+}
+#main table {
+	width: 93%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-collapse: collapse;
+}
+#main table th,
+#main table td {
+	height: 30px;
+	line-height: 30px;
+	color: #292929;
+}
+#main table th {
+	border-bottom: 1px solid #d5dfe8;
+	font-weight: normal;
+	font-size: 13px;
+}
+#main table td {
+	border-bottom: 1px solid #eee;
+}
+tr {
+	background: #eef3f7;
+}
+tr:hover {
+	background: #fff999;
+	cursor: pointer;
+}
+#main .content_table tr {
+	background: #fff;
+}
+#main .content_table tr:hover {
+	background: #fff999;
+}
+#main .content_table td {
+	text-align: left;
+	padding-left: 6px;
+}
+#main .content_table td span.red {
+	color: red;
+}
+#main .content_table input.text {
+	width: 363px;
+}
+#main .content_table select {
+	width: 366px;
+	height: 30px;
+}
+#main .content_table select optgroup {
+	font-style: normal;
+}
+#main .content_table input[type="checkbox"],
+#main .content_table input[type="radio"] {
+	position: relative;
+	top: 2.33px;
+	cursor: pointer;
+}
+#main img[name="pic"] {
+	margin-left: 60px;
+}
+#main .content_table #thumbnail {
+	width: 60px;
+	height: 29px;
+	border: 1px solid #e6e6e6;
+	border-radius: 3px;
+	background: #eee;
+	position: relative;
+	top: 1px;
+	left: 3px;
+	outline: none;
+}
+.content_table textarea {
+	margin-left: 0 !important;
+	width: 360px !important;
+	height: 90px !important;
+}
+#main .content_table input.small {
+	width: 80px;
+}
+#main .content_table td.ckeditor:hover {
+	background: #fff !important;
+}
+#cke_editor {
+	margin-top: -23px;
+}
+.cke_editor_editor_dialog table {
+	text-align: left;
+	width: auto !important;
+}
+.cke_editor_editor_dialog * {
+	outline: none;
+}
+.cke_wrapper {
+	background: 0 !important;
+}
+.cke_editor {
+	width: 100% !important;
+}
+.cke_editor tr:hover {
+	background: none !important;
+	outline: none;
+}
+.cke_editor td:hover {
+	background: none !important;
+}
+.cke_dialog tr:hover {
+	background: none !important;
+}
+.cke_editor #cke_26 {
+	display: none;
+}
+.cke_editor #cke_27 {
+	display: none;
+}
+#cke_109_uiElement {
+	margin-left: -11px;
+}
+#main a {
+	color: #366be6;
+}
+#main .center {
+	text-align: center;
+	padding: 23px 0;
+}
+#main .left {
+	text-align: left;
+}
+#main .left .orange {
+	color: #f63;
+}
+#main .left select {
+	width: 235.23px;
+	height: 29px;
+	background: #fff;
+}
+#main form input.text {
+	width: 230px;
+	height: 23px;
+	background: #fff;
+	text-indent: 6px;
+	margin: 6px 0;
+}
+#main form input.sort {
+	width: 43px;
+	height: 19px;
+	text-indent: 19px;
+}
+#main form select {
+	width: 100px;
+	height: 23px;
+	background: #fff;
+}
+#main form textarea {
+	width: 230px;
+	height: 60px;
+	margin: 13px 0 6px 83px;
+}
+#main form .submit {
+	width: 100px;
+	height: 26px;
+	cursor: pointer;
+	margin: 23px 0 20px 49px;
+	background: #eee;
+	border: 1px solid rgba(0,0,0,0.6);
+}
+#main form .radio {
+	position: relative;
+	top: 2.33px;
+}
+
+
+
+
+#main form .level {
+	margin-left: 83px;
+}
+#main ol {
+	list-style-type: none;
+	padding: 0 0 0 39px;
+}
+#main ol li {
+	float: left;
+	padding: 0 13px 0 0;
+	height: 30px;
+}
+#main ol li a {
+	background: #eee;
+	color: #06f;
+	padding: 6px;
+}
+#main ol li a.selected {
+	background: #06f;
+	color: #fff;
+}
+#adminLogin {
+	width: 363px;
+	margin: 233px auto;
+	color: #666;
+	font-size: 14px;
+}
+#adminLogin fieldset {
+	padding: 23px;
+}
+#adminLogin fieldset legend {
+	font-size: 16px;
+}
+#adminLogin fieldset label {
+	display: block;
+	margin: 6px;
+}
+#adminLogin fieldset label img {
+	margin: 0 0 0 56.666666px;
+}
+#adminLogin input.submit {
+	margin: 0 0 0 63px;
+	height: 36px;
+	width: 130px;
+	border-radius: 3px;
+	display: inline-block;
+	text-align: center;
+}
+#page {
+	text-align: center;
+	padding: 13px 0;
+}
+#page a {
+	padding: 3px 6px;
+	margin: 0 3px;
+	border: 1px solid #666;
+}
+#page .select {
+	width: 130px;
+	height: 26px;
+	background: #fff;
+}
+#page a:hover {
+	background: #666;
+	color: #fff;
+	border: 1px solid #000;
+}
+#page span.disabled {
+	padding: 3px 6px;
+	border: 1px solid #666;
+	margin: 0 3px;
+	color: #666;
+	background: #e6e6e6;
+}
+#page span.me {
+	padding: 3px 6px;
+	margin: 0 3px;
+	border: 1px solid #666;
+	background: #666;
+	color: #fff;
+}

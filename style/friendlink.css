@@ -1,0 +1,67 @@
+#friendlink {
+  width: 100%;
+  margin: 0 0 13px;
+  border: 1px solid #e0e3e6;
+  padding: 0 0 13px 0;
+}
+
+.type_radio {
+  vertical-align: top;
+}
+#friendlink h2 {
+  height: 26px;
+  border-bottom: none;
+  text-align: center;
+}
+#friendlink img {
+	padding: 9.3px 11.3px 0 0;
+}
+#friendlink h3 {
+	padding: 23px 13px;
+}
+#friendlink div a {
+	padding: 0 6px;
+}
+#friendlink div {
+	padding: 0 13px;
+}
+#friendlink form {
+  padding: 23px 0;
+  font-size: 13px;
+  border-top: 0;
+}
+#friendlink form dl dd input.text {
+  width: 233px;
+  height: 23px;
+  text-indent: 6px;
+  border: 1px solid #d3d3d3;
+  background: #fff;
+}
+#friendlink form input[type="submit"] {
+  background: #eee;
+  border: 1px solid #e3e6e9;
+  margin-left: 63px;
+  width: 133px;
+  height: 33px;
+  border-radius: 1px;
+  outline: none;
+  cursor: pointer;
+}
+#friendlink form .orange {
+  color: orange;
+}
+#friendlink form dl {
+  padding-left: 233px;
+}
+#friendlink form dl dd {
+  padding: 6px 0;
+}
+#friendlink form img {
+  margin-left: 63px;
+  cursor: pointer;
+  border: 1px solid #e6e6e6;
+}
+#friendlink form dl dd select {
+  width: 235px;
+  height: 23px;
+}

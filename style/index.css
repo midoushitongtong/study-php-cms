@@ -1,0 +1,336 @@
+
+
+
+
+
+#user {
+	width: 268px;
+	height: 398px;
+	float: right;
+	margin: 0 0px 10px 0;
+	border: 1px solid #bebebe;
+	overflow: hidden;
+}
+#user form label {
+	display: block;
+	padding: 9px 0 0 12px;
+	font-size: 13px;
+}
+#user form input.text {
+	width: 180px;
+	height: 23px;
+	border: 1px solid #666;
+	background: white;
+	text-indent: 6px;
+}
+#user form input.code {
+	width: 82px;
+	position: relative;
+	left: 1px;
+}
+#user form .yzm {
+	position: relative;
+}
+#user form img {
+	width: 93px;
+	height: 33px;
+	position: absolute;
+	right: 9px;
+	bottom: -3px;
+	cursor: pointer;
+}
+#user form p {
+	text-align: center;
+	padding: 12px 0 5px 39px;
+}
+#user form p input.submit {
+	width: 45px;
+	cursor: pointer;
+	height: 25px;
+	border: 1px solid #bebebe;
+	background: #eee;
+	padding: 3px 0;
+}
+#user form p a {
+	color: #333;
+	position: relative;
+	top: 4px;
+	padding: 0 0 0 6px;
+}
+#user form p a:hover {
+	text-decoration: underline;
+}
+#user h3 {
+	font-size: 13px;
+	padding: 0 13px;
+	clear: both;
+}
+#user h3 span {
+	color: #c3c3c3;
+	padding: 0 0 0 5px;
+}
+#user .a {
+	width: 83%;
+	margin: 13px auto;
+	text-align: center;
+	border: 1px solid #eee;
+	height: 23px;
+	line-height: 23px;
+	border-left: none;
+	border-right: none;
+}
+#user .a strong {
+	color: orange;
+}
+#user .b {
+	width: 76%;
+	height: 93px;
+	padding-top: 3px;
+	margin: 0 auto;
+}
+#user .b img {
+	display: block;
+	float: left;
+}
+#user .b a {
+	padding-top: 6px;
+	display: block;
+	width: 103px;
+	letter-spacing: 1px;
+	float: right;
+	color: #06f;
+}
+#user dl {
+	width: 73px;
+	float: left;
+	padding: 6.3px 0 0 12px;
+}
+#user dl dt img {
+	display: block;
+}
+#user dl dd {
+	padding: 3.5px;
+	text-align: center;
+}
+#news {
+	width: 378px;
+	height: 398px;
+	float: right;
+	margin: 0 10px 10px 0;
+	border: 1px solid #bebebe;
+	padding: 0 10px;
+}
+#news h3 {
+	font-size: 16px;
+	text-align: center;
+	padding: 6px;
+}
+#news h3 a {
+	color: #333;
+}
+#news p {
+	line-height: 169%;
+}
+#news p a {
+	color: #06f;
+}
+#news p a:hover {
+	text-decoration: underline;
+}
+#news p.link {
+	color: #06f;
+	padding: 6px 0;
+	border-bottom: 1px dashed #06f;
+}
+#news p.link a {
+	display: inline-block;
+}
+#news ul {
+	padding: 6px 3px 0 2px;
+}
+#news ul li {
+	height: 24px;
+	line-height: 24px;
+	background: url(../images/pointer.png) no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#news ul li em {
+	float: right;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#news ul li a {
+	color: #666;
+}
+#news ul li a:hover {
+	text-decoration: underline;
+}
+#pic {
+	width: 270px;
+	height: 195px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#pic embed {
+	display: block;
+	border: 1px solid #bebebe;
+}
+#rec {
+	width: 268px;
+	height: 193px;
+	float: left;
+	border: 1px solid #bebebe;
+	margin: 0 0 10px 0;
+}
+#rec ul {
+	padding: 2px 10px 0 10px;
+}
+#rec ul li {
+	height: 23px;
+	line-height: 23px;
+	background: url(../images/pointer.png) no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#rec ul li em {
+	float: right;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#rec ul li a {
+	color: #666;
+}
+#rec ul li a:hover {
+	text-decoration: underline;
+}
+#sidebar-right {
+	width: 270px;
+	height: 835px;
+	float: right;
+	margin: 0 0 10px 0;
+}
+#sidebar-right .adver {
+	width: 270px;
+	height: 200px;
+	margin: 0 0 10.0023px 0;
+}
+#sidebar-right .adver img {
+	display: block;
+}
+#sidebar-right div.hot, #sidebar-right div.comm, #sidebar-right div.vote {
+	border: 1px solid #bebebe;
+	height: 200px;
+	margin: 0 0 10.0023px 0;
+}
+#sidebar-right ul {
+	padding: 2px 10px 0 10px;
+}
+#sidebar-right ul li {
+	height: 24px;
+	line-height: 23px;
+	background: url(../images/pointer.png) no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#sidebar-right ul li em {
+	float: right;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#sidebar-right ul li a {
+	color: #666;
+}
+#sidebar-right ul li a:hover {
+	text-decoration: underline;
+}
+#sidebar-right div.vote h3 {
+	padding: 9px;
+	text-align: center;
+	color: #369;
+	border-bottom: 1px dashed #bebebe;
+	width: 80%;
+	margin: 0 auto;
+}
+#sidebar-right div.vote form label {
+	display: block;
+	padding: 3px 13px 0 13px;
+}
+#sidebar-right div.vote p {
+	text-align: center;
+	margin: 9.23666666px 0 0 0;
+}
+#sidebar-right div.vote p input {
+	width: 49px;
+	height: 26px;
+	margin: 0 6px;
+	background: #eee;
+	border: 1px solid #bebbbe;
+	padding: 3px 0;
+	cursor: pointer;
+}
+#picnews {
+	width: 678px;
+	height: 198px;
+	float: left;
+	margin: 0 0 10px 0;
+	border: 1px solid #bebebe;
+}
+#picnews dl {
+	width: 156px;
+	float: left;
+	margin: 10px 0 0 11.666666px;
+}
+#picnews dl dt {
+	border: 1px solid #bebebe;
+	padding: 2px;
+}
+#picnews dl dt img {
+	display: block;
+	width: 150px;
+	height: 100px;
+}
+#picnews dl dd {
+	padding: 3px 1.666666px;
+	text-align: center;
+}
+#newslist {
+	width: 680px;
+	height: 625px;
+	float: left;
+	margin: 0 0 10px 0;
+}
+#newslist ul {
+	padding: 6px 13px 0 13px;
+}
+#newslist ul li {
+	height: 24px;
+	line-height: 24px;
+	background: url(../images/arrow.png) no-repeat left center;
+	padding: 0 0 0 10px;
+}
+#newslist ul li em {
+	float: right;
+	font-style: normal;
+	font-family: Tahoma;
+}
+#newslist ul li a {
+	color: #666;
+}
+#newslist ul li a:hover {
+	text-decoration: underline;
+}
+#newslist div.list {
+	width: 49%;
+	height: 306px;
+	border: 1px solid #bebebe;
+	float: left;
+}
+#newslist div.list h2 a {
+	float: right;
+	padding: 0 13px 0 0;
+	color: #06f;
+}
+#newslist div.right {
+	float: right;
+}
+#newslist div.bottom {
+	margin: 0 0 10px 0;
+}
